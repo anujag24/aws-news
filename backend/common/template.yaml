@@ -169,11 +169,11 @@ Resources:
       Description: Dependencies for aws-news image processing functions
       ContentUri: image-processing-dependencies
       CompatibleRuntimes:
-        - nodejs10.x
         - nodejs12.x
+        - nodejs14.x
       RetentionPolicy: Delete
     Metadata:
-      BuildMethod: nodejs12.x
+      BuildMethod: nodejs14.x
 
   ImageProcessingDependenciesParameter:
     Type: AWS::SSM::Parameter
